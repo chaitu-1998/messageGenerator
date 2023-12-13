@@ -29,7 +29,7 @@ function pickAQuestion(arr)
 
 let indexOfArray = pickAQuestion(jokesQuestion)
 
-
+console.log(indexOfArray)
 console.log(jokesQuestion[indexOfArray])
-
+console.log(indexOfArray)
 console.log(jokeAnswer[indexOfArray])
