@@ -26,10 +26,10 @@ function pickAQuestion(arr)
     let jokeQesIndex = Math.floor(Math.random()*(arr.length-1))
     return jokeQesIndex
 }
-
+// getting the index number using function
 let indexOfArray = pickAQuestion(jokesQuestion)
 
-console.log(indexOfArray)
+//printing the jokes to console
 console.log(jokesQuestion[indexOfArray])
-console.log(indexOfArray)
+
 console.log(jokeAnswer[indexOfArray])
